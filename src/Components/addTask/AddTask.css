@@ -1,0 +1,141 @@
+
+
+.main-head_addTask{
+    /* position: absolute; */
+    /* background-color: red; */
+    text-align: start;
+    /* overflow: unset; */
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+
+}
+label{
+    color: #7F8487;
+    font-weight: 500;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.add-task_task{
+    width: 80%;
+}
+/* input{
+    outline: none;
+}
+textarea{
+    outline: none;
+    text-decoration: none;
+} */
+.due-date_input{
+    border: none;
+    cursor: pointer;
+}
+tr{
+    height: 4rem;
+}
+.add-tag-select{
+    border: none;
+    background-color: transparent;
+    margin-right: 4%;
+    cursor: pointer;
+}
+.custom-tag-input{
+    width: 15%;
+    border: none;
+    outline: none;
+    border-bottom: solid thin #7F8487;
+    /* border-width: ; */
+    padding-left: 2%;
+    padding-bottom: 1%;
+}
+.add-custom-tag-button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.add-title-input{
+    
+    height: 5vh;
+    /* border-radius: 12px; */
+    width: 35%;
+    border: none;
+    outline: none;
+    /* border-bottom: solid thin #7F8487; */
+    /* background-color: #EFFFFD; */
+    /* background-color: rebeccapurple; */
+    border-bottom: solid;
+    border-width: thin;
+    padding-left: 2%;
+    padding-bottom: 1%;
+}
+.add-description-area{
+    width: 70%;
+    height: 16vh;
+    border-radius: 12px;
+    outline: none;
+    /* border-width: thin; */
+    background-color: #FFF6EA;
+    border: none;
+    /* border-color: #7F8487; */
+    align-items: center;
+    resize: none;
+    padding: 0.5rem 0.2rem 0.2rem 1rem;
+    font-size: medium;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.add-task-button{
+    background: #A459D1;
+    height: 2.5rem;
+    width:8vw;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: medium;
+    cursor: pointer;
+    box-shadow: 0 1rem 1.5rem #8F43EE;
+
+}
+.add-task-button:active{
+    background-color: #541690;
+}
+.form-button-section{
+    padding-top: 2rem;
+}
+.cancel-task-button{
+    background-color: #F32424;
+    height: 2.5rem;
+    width:8vw;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: medium;
+    cursor: pointer;
+    box-shadow: 0 1rem 1.2rem #F32424;
+
+}
+.cancel-task-button:active{
+    background-color: #B20600;
+}
+
+@media screen and (max-width:810px) {
+    .main-head_addTask{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+    }
+    tr{
+        height: 2rem;
+    }
+    .add-description-area{
+        height: 10vh;
+    }
+    .add-title-input{
+        padding-bottom: 0;
+    }
+}
+/* @media screen {
+    
+} */
